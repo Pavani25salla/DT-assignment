@@ -1,0 +1,129 @@
+# React Developer — Hiring Assignment
+### Role: React Developer (1-2 years work experience)
+### Time Limit: 48 hours from receipt
+
+---
+
+## Context
+
+You're joining a company that builds HR technology for the construction industry. The users are site managers, HR teams, and payroll operators managing blue-collar workforce — daily wage workers, shift-based crews, overtime-heavy schedules.
+
+This assignment simulates your actual job. You will work with an existing open-source HRMS codebase — not build from scratch. This tests what matters to us: can you read someone else's code, ship a real feature, and respond to client tickets fast?
+
+---
+
+## Setup
+
+Pick any open-source HRMS with a React frontend and a backend (Node.js, Python, or similar). Fork it. Get it running locally.
+
+**Suggested repo:** [MERN Employee Salary Management](https://github.com/berthutapea/mern-employee-salary-management) — React + Node/Express + MySQL. Payroll-focused, clean structure, good fit for this assignment.
+
+You may use a different HRMS if you prefer — the tasks below are designed to work with any system that has employee/payroll functionality.
+
+---
+
+## Part 1: Feature Build (New Feature with Frontend + Backend Validation)
+
+**Scenario:** A construction company client has requested a new feature — **Overtime Entry & Approval for Site Workers**.
+
+Site managers need to log overtime hours for workers at the end of each day. The system must validate the entries before they're saved and before payroll processes them.
+
+### What to build
+
+An overtime logging screen where a site manager can:
+- Select a worker (from existing employee list)
+- Enter the date, number of overtime hours, and reason
+- Submit for payroll processing
+
+### Validation requirements
+
+**Frontend validations (before submission):**
+- All fields are required
+- Overtime hours must be between 1 and 6 (company policy caps daily OT at 6 hours)
+- Date cannot be in the future
+- Date cannot be more than 7 days in the past (late entries not allowed)
+- Reason must be at least 10 characters
+
+**Backend validations (on the API):**
+- All the same rules as frontend (never trust the client)
+- No duplicate entry for the same worker + same date
+- Worker must exist in the system
+- Total monthly overtime for a worker cannot exceed 60 hours — reject if this entry would push them over
+
+### Deliverable
+
+- Working feature with both frontend form validation and backend API validation
+- Proper error messages shown to the user when validation fails (frontend or backend)
+- Clean, readable code — we will review it
+
+---
+
+## Part 2: Ticket Blitz (5 Client Tickets — Fast Response)
+
+**Scenario:** You've just joined the team. It's your first week. Five tickets come in from clients. Each one is a real request from a site HR manager. They need quick fixes — not next sprint, now.
+
+For each ticket: make the change, commit with a clear message referencing the ticket number.
+
+---
+
+**TICKET LF-101: Wrong date format on payslip**
+"Our site managers are confused — the payslip shows dates as MM/DD/YYYY but everyone in India reads DD/MM/YYYY. Please fix this across the payslip view."
+
+*Type: Frontend fix. Find where dates are formatted in the payslip/salary display and change to DD/MM/YYYY.*
+
+---
+
+**TICKET LF-102: Salary field accepts negative numbers**
+"I accidentally entered -5000 in the salary field and it saved. That shouldn't be possible."
+
+*Type: Validation fix. Add frontend + backend validation — salary/amount fields must be positive numbers.*
+
+---
+
+**TICKET LF-103: Add worker designation field**
+"We need a 'Designation' field on the employee profile — values like Mason, Electrician, Plumber, Supervisor, Helper. Dropdown, not free text. This should show on the employee list page too."
+
+*Type: Small feature. Add a dropdown field to employee create/edit form, persist it, display in employee list.*
+
+---
+
+**TICKET LF-104: Export employee list to CSV**
+"Every month I need to send the employee list to the head office in Excel. Right now I copy-paste from the screen. Can you add a Download CSV button?"
+
+*Type: Feature addition. Add a CSV export button on the employee list page. Include key fields: name, designation, department, salary.*
+
+---
+
+**TICKET LF-105: Fix mobile layout on employee list**
+"When I open the employee list on my phone at the construction site, the table is cut off on the right side. I can't see the salary column without scrolling sideways."
+
+*Type: CSS/responsive fix. Make the employee list table responsive — horizontal scroll or stacked layout on mobile.*
+
+---
+
+## Evaluation Criteria
+
+| What we evaluate | What we're looking for |
+|---|---|
+| **Code reading ability** | You picked up an unfamiliar codebase and made it work. You didn't rewrite everything — you worked within the existing patterns |
+| **Validation discipline** | Frontend validations for UX, backend validations for safety. Both present, both correct |
+| **Ticket speed** | 5 tickets, clean commits, no over-engineering. We will look at timestamps between commits |
+| **AI usage** | We expect you to use AI tools (Claude, Copilot, etc.) — tell us which ones and how. No penalty for using AI. Penalty for not using it |
+| **Communication** | Clear commit messages. If you'd skip or modify a ticket in a real job, leave a note explaining why |
+
+---
+
+## Submission
+
+1. Push your fork to a public GitHub repo
+2. README must include:
+   - Setup instructions (we will run it locally)
+   - Which HRMS you chose and why (one line)
+   - Which AI tools you used and for what
+   - Any ticket you chose to handle differently than described, and why
+3. Commits should be atomic — one per ticket (LF-101 through LF-105), separate commits for the overtime feature
+4. Send the repo link within 48 hours
+
+---
+
+*Assignment designed by DeepThought — April 2026*
