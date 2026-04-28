@@ -1,0 +1,269 @@
+{
+  "portfolioId": "PF-2026-03-00847",
+  "uid": "PDGMS-EMP-00847",
+  "monthId": "2026-03",
+  "orgId": "ORG-KREATIVE-001",
+  "period": {
+    "from": "2026-03-01",
+    "to": "2026-03-31"
+  },
+  "generatedAt": "2026-04-02T09:14:22.000Z",
+
+  "employee": {
+    "name": "Priya Menon",
+    "role": "Program Coordinator — Schools Transformation",
+    "program": "Kreative Schools Initiative",
+    "organization": "Kreative Organics",
+    "joinedAt": "2024-06-15",
+    "tenureMonths": 21,
+    "avatarUrl": null
+  },
+
+  "sections": [
+    {
+      "type": "executive_summary",
+      "data": {
+        "compositeScore": 68,
+        "weekId": "2026-W13",
+        "paceStatus": "on_track",
+        "currentLevel": "V2",
+        "previousMonthScore": 62
+      },
+      "narrative": "Priya had a strong March — her composite score moved from 62 to 68, the largest single-month jump since joining. Delivery was her standout area: she closed 14 of 18 assigned deliverables including the curriculum mapping matrix that had been pending since January. Two capability gaps remain — framework application is still below threshold, and process adoption dipped slightly as she focused on delivery over documentation. She's on track for V3 eligibility by Q1 2027."
+    },
+    {
+      "type": "contribution_highlights",
+      "data": {
+        "ipCommitCount": 6,
+        "recentCommits": [
+          {
+            "id": 2341,
+            "description": "Curriculum mapping matrix — aligned 4 boards (CBSE, ICSE, State, IB) to Kreative pedagogy framework",
+            "createdAt": "2026-03-08T14:22:00.000Z"
+          },
+          {
+            "id": 2355,
+            "description": "Teacher readiness assessment rubric — 5-level scoring across 8 competency areas",
+            "createdAt": "2026-03-12T11:05:00.000Z"
+          },
+          {
+            "id": 2378,
+            "description": "School principal onboarding deck — 22 slides, used in 3 principal meetings",
+            "createdAt": "2026-03-18T16:30:00.000Z"
+          },
+          {
+            "id": 2391,
+            "description": "Student engagement tracker template — weekly pulse for 6 pilot schools",
+            "createdAt": "2026-03-22T09:45:00.000Z"
+          },
+          {
+            "id": 2402,
+            "description": "Monthly school visit report format — standardized across all coordinators",
+            "createdAt": "2026-03-25T13:10:00.000Z"
+          },
+          {
+            "id": 2410,
+            "description": "Parent communication guidelines — WhatsApp message templates + escalation flow",
+            "createdAt": "2026-03-28T10:20:00.000Z"
+          }
+        ],
+        "totalDeliverables": 18,
+        "completed": 14,
+        "inProgress": 2,
+        "pendingQa": 1,
+        "notStarted": 1
+      },
+      "narrative": "Priya shipped 14 of 18 deliverables this month — her highest completion rate since the program started. The curriculum mapping matrix was the big win: it had been stuck in iterations since January and she drove it to completion by pulling in the academic advisory board for direct validation instead of waiting for written feedback. She also created 6 original work items, including the teacher readiness rubric that the L3 lead has now adopted as the standard assessment tool across all Kreative school programs."
+    },
+    {
+      "type": "capability_growth",
+      "data": {
+        "deliveryRate": 78,
+        "ipScore": 72,
+        "kpiScore": 65,
+        "frameworkScore": 48,
+        "processScore": 54,
+        "ritualScore": 82
+      },
+      "narrative": "Delivery (78) and engagement (82) are Priya's strongest areas — she ships consistently and participates in every organizational ritual. Original work (72) has been climbing since she started creating reusable templates. The gap is in framework application (48, below the 60 threshold) and process adoption (54). She tends to solve problems directly rather than referencing established frameworks — effective for delivery, but it means her solutions aren't always connected to the organization's methodology. This is the main growth area for V3 readiness."
+    },
+    {
+      "type": "kpi_impact",
+      "data": {
+        "totalKpiCommits": 5,
+        "verifiedCount": 3,
+        "details": [
+          {
+            "kpiId": "KPI-KSI-001",
+            "label": "Schools Visited",
+            "unit": "schools",
+            "target": 12,
+            "actual": 9,
+            "status": "miss",
+            "verified": true
+          },
+          {
+            "kpiId": "KPI-KSI-002",
+            "label": "Teacher Training Sessions Conducted",
+            "unit": "sessions",
+            "target": 6,
+            "actual": 6,
+            "status": "hit",
+            "verified": true
+          },
+          {
+            "kpiId": "KPI-KSI-003",
+            "label": "Curriculum Modules Mapped",
+            "unit": "modules",
+            "target": 8,
+            "actual": 11,
+            "status": "hit",
+            "verified": true
+          },
+          {
+            "kpiId": "KPI-KSI-004",
+            "label": "Parent Engagement Events",
+            "unit": "events",
+            "target": 4,
+            "actual": 2,
+            "status": "miss",
+            "verified": false
+          },
+          {
+            "kpiId": "KPI-KSI-005",
+            "label": "Student Assessment Baselines Collected",
+            "unit": "schools",
+            "target": 6,
+            "actual": 6,
+            "status": "hit",
+            "verified": false
+          }
+        ]
+      },
+      "narrative": "Hit 3 of 5 KPI targets. The curriculum mapping overperformance (11 vs 8 target) reflects the January backlog finally clearing. School visits came in at 9 vs 12 target — two schools postponed due to exam season and one principal was unreachable for 3 weeks (constraint ticket raised). Parent engagement events were the biggest miss: 2 of 4. Priya flagged that the parent event format needs redesign — attendance dropped 40% after the first event, suggesting the format isn't landing. This is honest feedback, not an excuse."
+    },
+    {
+      "type": "constraint_patterns",
+      "data": {
+        "totalConstraints": 7,
+        "resolved": 4,
+        "byType": {
+          "budget": 1,
+          "talent": 0,
+          "internal_support": 3,
+          "assumptions": 1,
+          "permissions": 2,
+          "unspecified": 0
+        },
+        "topConstraints": [
+          {
+            "ticketId": "CST-0334",
+            "label": "Principal of DPS Miyapur unreachable for 3 weeks — school visit and baseline collection blocked",
+            "type": "permissions",
+            "status": "resolved",
+            "resolvedAt": "2026-03-22T00:00:00.000Z"
+          },
+          {
+            "ticketId": "CST-0341",
+            "label": "Math manipulatives budget not approved — 4 schools waiting for materials",
+            "type": "budget",
+            "status": "open"
+          },
+          {
+            "ticketId": "CST-0347",
+            "label": "Academic advisory board response delayed by 12 days on curriculum matrix review",
+            "type": "internal_support",
+            "status": "resolved",
+            "resolvedAt": "2026-03-08T00:00:00.000Z"
+          },
+          {
+            "ticketId": "CST-0352",
+            "label": "Parent event venue approval requires HOD sign-off — process unclear",
+            "type": "permissions",
+            "status": "open"
+          },
+          {
+            "ticketId": "CST-0358",
+            "label": "Assumed pilot schools would have projectors — 3 of 6 do not",
+            "type": "assumptions",
+            "status": "resolved",
+            "resolvedAt": "2026-03-15T00:00:00.000Z"
+          }
+        ]
+      },
+      "narrative": "7 constraints raised, 4 resolved. The biggest pattern: permissions and internal support (5 of 7). Priya is consistently blocked by approval chains — the math manipulatives budget has been pending for 6 weeks, and parent event venues require a sign-off process that nobody can clearly explain. The advisory board delay on curriculum review (12 days) was resolved when Priya switched to a direct validation approach — a good problem-solving instinct. The projector assumption was a planning miss that she caught early and worked around by switching to printed materials."
+    },
+    {
+      "type": "career_trajectory",
+      "data": {
+        "ladderId": "LADDER-PM-001",
+        "milestones": [
+          { "level": "V1", "targetDate": "2024-06-15" },
+          { "level": "V2", "targetDate": "2025-09-01" },
+          { "level": "V3", "targetDate": "2027-03-01" },
+          { "level": "V4", "targetDate": "2030-06-01" },
+          { "level": "V5", "targetDate": "2035-06-01" }
+        ],
+        "projectedNextLevel": "V3",
+        "projectedDate": "2027-04-15",
+        "currentLevel": "V2",
+        "paceStatus": "on_track",
+        "monthsAtCurrentLevel": 7,
+        "gapDrivers": [
+          "Framework application score (48) below V3 threshold (60)",
+          "Process adoption score (54) below V3 threshold (60)"
+        ]
+      },
+      "narrative": "Priya is on track for V3 (Program Lead) by Q1 2027 — projected April 2027, about one month behind the planned March 2027 target. The gap is capability, not contribution: her delivery and IP scores already exceed V3 thresholds, but framework application (48) and process adoption (54) are below the 60 minimum. If she brings both above 60 in the next 3–4 months, she'll be eligible on schedule. The recommendation: consciously apply and document framework usage in daily reports rather than solving problems ad-hoc."
+    }
+  ],
+
+  "monthlyReportEnrichment": {
+    "deliverableDetail": [
+      { "ticketId": "TKT-1201", "label": "Curriculum mapping matrix — CBSE alignment", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 480, "actualMinutes": 720 },
+      { "ticketId": "TKT-1202", "label": "Curriculum mapping matrix — ICSE alignment", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 360, "actualMinutes": 340 },
+      { "ticketId": "TKT-1203", "label": "Curriculum mapping matrix — State board alignment", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 360, "actualMinutes": 400 },
+      { "ticketId": "TKT-1204", "label": "Curriculum mapping matrix — IB alignment", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 480, "actualMinutes": 510 },
+      { "ticketId": "TKT-1205", "label": "Teacher readiness rubric v2", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 300, "actualMinutes": 280 },
+      { "ticketId": "TKT-1206", "label": "Principal onboarding deck", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 240, "actualMinutes": 200 },
+      { "ticketId": "TKT-1207", "label": "School visit report — DPS Miyapur", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 120, "actualMinutes": 90 },
+      { "ticketId": "TKT-1208", "label": "School visit report — Oakridge Bachupally", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 120, "actualMinutes": 110 },
+      { "ticketId": "TKT-1209", "label": "School visit report — Pallavi Model School", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 120, "actualMinutes": 130 },
+      { "ticketId": "TKT-1210", "label": "Student engagement tracker — pilot deployment", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 180, "actualMinutes": 160 },
+      { "ticketId": "TKT-1211", "label": "Parent communication templates", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 120, "actualMinutes": 90 },
+      { "ticketId": "TKT-1212", "label": "Monthly coordinator report format", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 180, "actualMinutes": 150 },
+      { "ticketId": "TKT-1213", "label": "Teacher training session — Batch 1 (12 teachers)", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 360, "actualMinutes": 390 },
+      { "ticketId": "TKT-1214", "label": "Teacher training session — Batch 2 (8 teachers)", "ticketType": "deliverable", "status": "delivered", "estimatedMinutes": 360, "actualMinutes": 340 },
+      { "ticketId": "TKT-1215", "label": "Parent engagement event — Oakridge", "ticketType": "deliverable", "status": "pending_qa", "estimatedMinutes": 240, "actualMinutes": 280 },
+      { "ticketId": "TKT-1216", "label": "Baseline assessment — 3 remaining schools", "ticketType": "deliverable", "status": "in_progress", "estimatedMinutes": 360, "actualMinutes": null },
+      { "ticketId": "TKT-1217", "label": "Parent engagement event — Pallavi Model", "ticketType": "deliverable", "status": "in_progress", "estimatedMinutes": 240, "actualMinutes": null },
+      { "ticketId": "TKT-1218", "label": "Quarterly impact summary for Kreative leadership", "ticketType": "deliverable", "status": "not_started", "estimatedMinutes": 480, "actualMinutes": null }
+    ],
+    "capabilityDetail": {
+      "frameworks": [
+        { "labelId": "FW-001", "label": "First Principles Thinking", "quantity": 4, "description": "Applied during curriculum matrix design — decomposed 4 board standards into atomic learning outcomes before mapping" },
+        { "labelId": "FW-003", "label": "PDCA Cycle", "quantity": 2, "description": "Used in teacher training iteration — Plan (session design) → Do (batch 1) → Check (feedback) → Act (redesign for batch 2)" },
+        { "labelId": "FW-007", "label": "Stakeholder Mapping", "quantity": 1, "description": "Mapped decision-makers at DPS Miyapur to resolve the principal unreachable constraint" }
+      ],
+      "processes": [
+        { "labelId": "PR-001", "label": "Daily Plan Submission", "quantity": 22, "description": "Submitted 22 of 23 working days" },
+        { "labelId": "PR-003", "label": "Ticket Lifecycle Update", "quantity": 18, "description": "Updated ticket status same-day for 18 of 18 completed deliverables" },
+        { "labelId": "PR-005", "label": "Weekly Report Submission", "quantity": 4, "description": "All 4 weekly reports submitted on time" }
+      ],
+      "rituals": [
+        { "labelId": "RT-001", "label": "Daily Standup", "attended": 21, "total": 23 },
+        { "labelId": "RT-002", "label": "Weekly Review", "attended": 4, "total": 4 },
+        { "labelId": "RT-003", "label": "Monthly Retrospective", "attended": 1, "total": 1 },
+        { "labelId": "RT-004", "label": "LDI Session", "attended": 2, "total": 2 }
+      ]
+    },
+    "timeDistribution": {
+      "operational": 42,
+      "research": 18,
+      "deepWork": 28,
+      "coordination": 22,
+      "meetings": 16,
+      "planning": 10
+    }
+  }
+}
