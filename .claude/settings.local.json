@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(git add *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git *)",
+      "Bash(Select-String -Pattern \"\\(?i\\)hrms|opensource|open.source\" -Context 3)",
+      "PowerShell(git log *)",
+      "WebSearch",
+      "WebFetch(domain:dev.to)",
+      "Bash(Get-ChildItem *)",
+      "Bash(node -e ' *)",
+      "PowerShell(Remove-Item *)"
     ]
   }
 }

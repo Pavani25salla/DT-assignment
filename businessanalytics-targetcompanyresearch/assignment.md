@@ -5,13 +5,13 @@
 
 ## About DeepThought
 
-DeepThought is a B2B company that helps Indian manufacturing MSMEs become better-run organizations. We do this through two things:
+DeepThought is a B2B company that helps organizations become better-run through structured execution. We do this through two things:
 
 1. **Execution consulting** — we place operating Fellows inside client organizations who work alongside the founder's team to structure daily operations, build accountability systems, and diagnose execution gaps. Think of it as McKinsey-grade diagnosis at MSME-affordable pricing, delivered continuously (not as a one-time project).
 
 2. **PDGMS** — an AI-powered SaaS platform that structures daily work so that leadership gets diagnostic data as a byproduct. Not a project management tool. An operating system for the organization.
 
-Our clients are typically Rs.50Cr–Rs.500Cr revenue manufacturers with a technically-minded founder who wants to build internal capability — not outsource it. These companies are growing, investing in R&D or capacity, and are open to structured ways of operating. We call this profile a **Federer company.**
+Our clients are typically Rs.50Cr–Rs.500Cr revenue organizations with a capable founder who wants to build internal capability — not outsource it. These companies are growing, investing in R&D or capacity, and are open to structured ways of operating. We call this profile a **Federer company.**
 
 ---
 
@@ -26,9 +26,9 @@ Our ideal client sits in a specific quadrant:
 
 **Federer = growth mindset + in-house capability building.**
 
-These are founders who are investing in new facilities, hiring technical talent, pursuing certifications, expanding into export markets — not sitting on existing revenue. They want to build their organization's muscles, not hand work to a vendor.
+These are founders who are investing in new facilities, hiring talent, pursuing certifications, expanding into new markets — not sitting on existing revenue. They want to build their organization's muscles, not hand work to a vendor.
 
-We specifically target **specialty manufacturers** — companies making differentiated, technical products (not bulk commodities). The decision-maker is typically an engineer, scientist, or technically-trained promoter who values structured operations.
+We target **differentiated organizations** — companies making differentiated, technical products or delivering specialized services (not bulk commodities or generic offerings). The decision-maker is typically someone who values structured operations and has demonstrated systems thinking — whether that comes from a scientific background, engineering pedigree, or years of building operational infrastructure.
 
 ---
 
@@ -71,9 +71,9 @@ This assignment simulates the core research task of the role. The output you pro
 
 ---
 
-**Expect a ~30% yield.** From our own research, roughly 7 out of 10 companies you investigate will turn out to be a poor fit — wrong segment, too big, too small, PE-owned, not actually a manufacturer, stale. You will likely need to research 75-100 companies to find 25 that genuinely pass. Plan your time accordingly.
+**Expect a ~30% yield.** From our own research, roughly 7 out of 10 companies you investigate will turn out to be a poor fit — wrong segment, too big, too small, PE-owned, not actually a producer, stale. You will likely need to research 75-100 companies to find 25 that genuinely pass. Plan your time accordingly.
 
-**Pick one city** from this list (or propose another Indian manufacturing hub with justification):
+**Pick one city** from this list (or propose another Indian hub with justification):
 - Hyderabad
 - Pune
 - Ahmedabad
@@ -82,8 +82,11 @@ This assignment simulates the core research task of the role. The output you pro
 - Vadodara
 - Bengaluru
 - Indore
+- Surat
+- Ludhiana
+- Kolhapur
 
-**City means operational presence, not just registered office.** If a company's founder, R&D, or primary manufacturing is in your chosen city but their registered office is elsewhere, that counts. If they only have a sales office in your city but everything real happens elsewhere, that doesn't count. Use your judgment and state your reasoning.
+**City means operational presence, not just registered office.** If a company's founder, R&D, or primary operations are in your chosen city but their registered office is elsewhere, that counts. If they only have a sales office in your city but everything real happens elsewhere, that doesn't count. Use your judgment and state your reasoning.
 
 **Pick one or two industry segments** from the list below:
 
@@ -103,30 +106,41 @@ This assignment simulates the core research task of the role. The output you pro
 - Industrial sensors & instrumentation (process sensors, analyzers, vision systems, IoT monitoring)
 - Animal health & veterinary biologics (veterinary vaccines, feed additives, aquaculture inputs)
 
----
-
-## What Makes a Company a Fit
-
-### Why This ICP
-
-DeepThought's offering is **Scientific Execution** — a Dedicated Team + Protocol that runs growth initiatives alongside a company's running business. These Federer companies already run experiments on the product side — R&D, pilots, formulations, testing. They already think scientifically about their product. Scientific Execution gives them the same structure for the business side — new markets, new revenue streams, process improvements — through sized risks, time-bound tests, and proven playbooks that transfer to their existing team.
-
-The reason we target specialty manufacturers specifically: their product rigour is real, their growth ambition is real, and they build capability in-house. They're the companies where a Dedicated Team + Protocol fits naturally — because they already understand how structured experimentation produces results. They've just never had that structure applied to how the business grows.
+**Basket C — Operator-Led Specialty**
+- Technical textiles & specialty yarns (functional yarns, performance fabrics, composite textiles — NOT commodity weaving)
+- Precision auto components & engineering (CNC machining, aerospace-grade components, die-casting, tooling — NOT bulk stamping)
+- Specialty food processing (custom formulations, contract manufacturing for FMCG, clean-label ingredients)
+- Designer / artisanal manufacturing (luxury craft, custom manufacturing with brand positioning — NOT mass commodity production)
 
 ---
+
+## Eligibility Gates
+
+Before scoring, every company must pass two eligibility gates. If either gate fails, do not score — move on.
+
+| Gate | Requirement | Why It's a Gate |
+|------|-------------|----------------|
+| **E1: Producer** | Produces a product or delivers a specialized service in-house. Has its own facility, plant, studio, or operational infrastructure. Not a trader, distributor, reseller, or pure intermediary. | DT works with organizations that build capability in-house. Traders and distributors don't have the operational infrastructure where our work applies. |
+| **E2: Accessible** | Operational presence that DT can reach. Currently this means India — HQ or primary operations in India. | DT's Fellows work on-site. Remote-only companies with no physical operational presence don't fit the model today. |
+
+**Watch out for service companies that look like producers** — CROs (contract research organizations), testing labs, analytical service providers, and clinical trial managers operate in the same industries (biotech, pharma, chemicals) but sell services, not products. Always verify the company actually makes something or delivers a proprietary service.
+
+---
+
+## Scoring Criteria — The Federer Score (out of 100)
 
 Evaluate each company against these 6 criteria. Not every company will score perfectly on all 6 — use your judgment.
 
-| # | Criterion | What to Look For |
-|---|-----------|-----------------|
-| 1 | **Manufacturer** | Produces physical product in-house. Has a plant/factory/production facility. Not a trader, distributor, or pure service company. **Watch out for service companies that look like manufacturers** — CROs (contract research organizations), testing labs, analytical service providers, and clinical trial managers operate in the same industries (biotech, pharma, chemicals) but sell services, not products. Always verify the company actually makes something. |
-| 2 | **India-based** | Headquartered in India or has manufacturing operations in India. |
-| 3 | **Differentiated** | Makes something niche or technical — not a commodity. Look for: patents, R&D centre, regulatory approvals (USFDA, EU-GMP, DSIR-recognized), "first/only/pioneer in India", proprietary products. |
-| 4 | **Technical decision-maker** | Founder or MD has a technical/scientific background. Look for: PhD, IIT/NIT/BITS/IISc alumni, ex-ISRO/DRDO, engineering pedigree, technical publications. Gen-2 leaders with formal education also count. |
-| 5 | **Growing sector** | Operating in a sector with tailwinds. Look for: PLI scheme eligibility, Make-in-India relevance, China+1 beneficiary, export markets, government support. |
-| 6 | **Active growth signals** | Company is expanding, not stagnant. Must meet at least 2 of the 5 thresholds below. |
+| # | Criterion | Weight | What to Look For |
+|---|-----------|--------|-----------------|
+| **C3** | **Differentiated** | **20** | Makes something niche or technical — not a commodity. **Two types of differentiation count:** (1) **IP-based:** patents, R&D centre, regulatory approvals (USFDA, EU-GMP, DSIR-recognized), "first/only/pioneer in India", proprietary products. (2) **Capability-based:** specialized equipment (German/Japanese/Swiss machines in a market of Chinese), proprietary processes, custom manufacturing competitors can't replicate, market-shaping innovation (e.g., first company to offer 500kg MOQ in an industry that demanded 10 tons). Both are real differentiation. |
+| **C4** | **Decision-Maker Quality** | **15** | The founder or MD demonstrates the ability to build structured operations. **Two archetypes qualify:** (1) **Science-founder:** PhD, IIT/NIT/BITS/IISc alumni, ex-ISRO/DRDO, engineering pedigree, technical publications. (2) **Operator-founder:** demonstrated systems thinking — ERP/SAP investment, structured costing models, formal planning processes, contribution-based measurement, evidence of building operational infrastructure over time. Gen-2 leaders with formal education AND operational involvement also count. |
+| **C5** | **Growing Sector** | **15** | Operating in a sector with tailwinds. Look for: PLI scheme eligibility, Make-in-India relevance, China+1 beneficiary, export markets, government support, D2C growth trends. |
+| **C6** | **Growth Signals** | **15** | Company is expanding, not stagnant. Must meet at least 2 of the 5 thresholds below. |
+| **C7** | **Systems Maturity** | **20** | Evidence that the company operates through structured systems, not just founder intuition. Look for: ERP/SAP implementation, structured costing models, MIS/dashboard usage, digital infrastructure, IT roles on LinkedIn, job postings mentioning SAP/ERP. A company that invested in operational systems already thinks structurally — they've accepted "we need process." Companies with zero systems infrastructure are significantly harder to work with. |
+| **C8** | **Leadership Succession** | **15** | Evidence of generational transition or leadership depth beyond the founder. Look for: Gen-2 formally appointed to the board (check MCA filings for appointment date), returned from external education or career before joining, taking an operational role (not just equity holding). Also: non-family professional managers hired into senior roles (COO, CFO, CTO from outside the family), independent directors on the board, multiple V4-level leaders with distinct portfolios (not one person holding every title). |
 
-### C6 — Active Growth Signal Thresholds
+### C6 — Growth Signal Thresholds
 
 A company counts as "actively growing" if it meets **at least 2 of these 5 signals:**
 
@@ -142,18 +156,18 @@ A company counts as "actively growing" if it meets **at least 2 of these 5 signa
 
 ---
 
-### Scoring — Federer Score (out of 100)
+### Scoring — How to Rate Each Criterion
 
 Each criterion has a weight. Score each as Weak (0), Moderate (half the weight), or Strong (full weight).
 
 | # | Criterion | Weight | Weak (0) | Moderate (half) | Strong (full) |
 |---|-----------|--------|----------|-----------------|---------------|
-| C1 | Manufacturer | 10 | Trader/distributor/service company | Has production but primarily assembles or outsources key processes | Own plant, own product, in-house R&D-to-production pipeline |
-| C2 | India-based | 5 | No India operations | Sales/marketing office only | HQ or primary manufacturing in India |
-| C3 | Differentiated | 25 | Commodity product, no IP | Some technical depth but no patents/approvals | Patents, DSIR, USFDA/EU-GMP, proprietary products, "first/only/pioneer" |
-| C4 | Technical DM | 20 | Non-technical promoter, no engineering/science background | Gen-2 with formal education, or technical CTO but non-technical MD | Founder/MD is PhD, IIT/IISc, ex-ISRO/DRDO, scientist, or engineer with publications |
-| C5 | Growing sector | 20 | Declining or stagnant sector | Stable sector, no specific tailwinds | PLI eligible, China+1, Make-in-India, export tailwinds, government push |
-| C6 | Growth signals | 20 | No visible activity in 2 years | 1 signal from threshold table | 2+ signals from threshold table |
+| C3 | Differentiated | 20 | Commodity product, no IP or capability moat | Some technical depth but no patents/approvals/specialized equipment | Patents, DSIR, USFDA/EU-GMP, proprietary products, OR specialized equipment + custom capability + market-shaping innovation |
+| C4 | Decision-Maker Quality | 15 | Non-technical promoter, no systems thinking, outsource mindset | Gen-2 with formal education, or some evidence of structured operations | Founder/MD is PhD/IIT/IISc/scientist, OR operator who built ERP/costing models/formal planning infrastructure |
+| C5 | Growing Sector | 15 | Declining or stagnant sector | Stable sector, no specific tailwinds | PLI eligible, China+1, Make-in-India, export tailwinds, government push |
+| C6 | Growth Signals | 15 | No visible activity in 2 years | 1 signal from threshold table | 2+ signals from threshold table |
+| C7 | Systems Maturity | 20 | No evidence of ERP, digital systems, or structured processes | Some evidence (IT head on LinkedIn, mentions of software) but unclear depth | SAP/ERP confirmed, structured costing, MIS dashboards, digital infrastructure clearly in use |
+| C8 | Leadership Succession | 15 | Solo founder, no gen-2, no professional managers, all titles on one person | Gen-2 exists but unclear involvement, OR one professional hire | Gen-2 formally on board with operational role, AND/OR multiple professional managers from outside, AND/OR distinct V4 portfolios across leadership |
 
 **How to interpret the score:**
 
@@ -164,17 +178,11 @@ Each criterion has a weight. Score each as Weak (0), Moderate (half the weight),
 | 40-59 | **C — Borderline** | Research further. May have a hidden disqualifier. |
 | Below 40 | **D — Not ICP** | Do not include. Document why in your fail list. |
 
-**Example:** Ananth Technologies — C1: Strong (10), C2: Strong (5), C3: Strong (25), C4: Strong (20), C5: Strong (20), C6: Strong (20) = **100/100, A-band.** Textbook Federer.
-
-**Example:** Lazuline Biotech — C1: Moderate (5), C2: Strong (5), C3: Strong (25), C4: Strong (20), C5: Strong (20), C6: Moderate (10) = **85/100, A-band.** Strong fit despite small scale.
-
-Include the Federer Score in your CSV alongside the per-criterion Weak/Moderate/Strong ratings.
-
 ---
 
 ### Auto-disqualify if:
-- Primarily a trader, distributor, or importer
-- Service company, not manufacturer (CROs, testing labs, analytical service providers, clinical trial managers)
+- Primarily a trader, distributor, or importer (fails E1)
+- Service company, not producer (CROs, testing labs, analytical service providers, clinical trial managers) — unless delivering a proprietary specialized service
 - Generic pharma (bulk APIs, branded generics, vaccines)
 - Subsidiary of a large group (e.g., a Tata or Reliance division)
 - Recently acquired by a larger group (even if previously independent — acquisition changes the promoter dynamic)
@@ -187,9 +195,9 @@ Include the Federer Score in your CSV alongside the per-criterion Weak/Moderate/
 
 ## Worked Examples
 
-To show you what good profiling looks like — and what a fail looks like — here are three real examples from our Hyderabad research.
+To show you what good profiling looks like — and what a fail looks like — here are examples from our research.
 
-### Example 1: PASS — Ananth Technologies
+### Example 1: PASS — Ananth Technologies (Science-Founder Archetype)
 
 | Field | Detail |
 |-------|--------|
@@ -198,32 +206,38 @@ To show you what good profiling looks like — and what a fail looks like — he
 | **What they make** | Satellite systems, avionics, radar subsystems for ISRO and Indian defence |
 | **Revenue** | Rs.270Cr FY24 (+30% YoY), Rs.900Cr order book |
 | **Decision-maker** | Dr. Subba Rao Pavuluri (Founder, ex-ISRO), gen-2 CEO Adithya Anand |
-| **C1 Manufacturer** | Strong — in-house satellite integration, multiple facilities |
-| **C2 India** | Strong — Hyderabad HQ |
-| **C3 Differentiated** | Strong — AS9100C certified, IN-SPACe authorized as first private GSO satellite operator |
-| **C4 Tech DM** | Strong — founder is ex-ISRO scientist, gen-2 actively leading |
-| **C5 Tailwind** | Strong — defence indigenization, IN-SPACe policy, space sector opening |
-| **C6 Growth** | Strong — 30% revenue growth, Rs.900Cr order book, expanding |
-| **Verdict** | **Strong fit** — textbook Federer. Scientist-founder, gen-2 transition, high-growth defence/space, deep technical moat. |
+| **E1 Producer** | PASS — in-house satellite integration, multiple facilities |
+| **E2 Accessible** | PASS — Hyderabad HQ |
+| **C3 Differentiated** | Strong (20) — AS9100C certified, IN-SPACe authorized as first private GSO satellite operator |
+| **C4 Decision-Maker** | Strong (15) — founder is ex-ISRO scientist, gen-2 actively leading |
+| **C5 Tailwind** | Strong (15) — defence indigenization, IN-SPACe policy, space sector opening |
+| **C6 Growth** | Strong (15) — 30% revenue growth, Rs.900Cr order book, expanding |
+| **C7 Systems** | Strong (20) — AS9100C requires rigorous quality/process systems, multiple integrated facilities |
+| **C8 Succession** | Strong (15) — gen-2 CEO (Adithya Anand) formally appointed, founder transitioning |
+| **Total** | **100/100 — A-band** |
+| **Verdict** | Textbook Federer. Scientist-founder, gen-2 transition, high-growth defence/space, deep technical moat, systems maturity evidenced by AS9100C. |
 | **Personalization hook** | "First private Indian company authorized for GSO satellite operations under IN-SPACe" |
 
-### Example 2: PASS (with caveats) — Lazuline Biotech
+### Example 2: PASS — Pioneer Embroideries (Operator-Founder Archetype)
 
 | Field | Detail |
 |-------|--------|
-| **Website** | lazulinebio.com |
-| **Segment** | Specialty biotech — recombinant proteins |
-| **What they make** | Recombinant Human Serum Albumin using Pichia Pastoris expression system (rare global capability) |
-| **Revenue** | ~Rs.33Cr (small) |
-| **Decision-maker** | Prasad Kandimalla (Co-founder, scientist-led) |
-| **C1 Manufacturer** | Moderate — production capability but small scale |
-| **C2 India** | Strong — Jubilee Hills, Hyderabad |
-| **C3 Differentiated** | Strong — recombinant HSA in Pichia is rare globally, deep biotech IP |
-| **C4 Tech DM** | Strong — scientist-founder |
-| **C5 Tailwind** | Strong — biologics, biosimilars, China+1 in biopharma |
-| **C6 Growth** | Moderate — in deep biotech tailwind but limited visible expansion signals |
-| **Verdict** | **Fit with scale caveat** — strong on differentiation and technical leadership, but small revenue and limited growth evidence. Worth including with the caveat stated. |
-| **Personalization hook** | "One of very few companies globally doing recombinant HSA production in Pichia — a capability most biopharma companies are still sourcing from China" |
+| **Website** | silkolite.in, pelhakoba.com |
+| **Segment** | Technical textiles / specialty yarns (Basket C) |
+| **What they make** | Specialty polyester yarns — FDY, POY, DTY, ATY, functional yarns (flame retardant, recycled, anti-microbial, UV stabilized, biodegradable). German Barmag technology. 500kg MOQ in an industry that demanded 10 tons |
+| **Revenue** | Rs.300-400Cr |
+| **Decision-maker** | Saurabh Maheshwari (ED, CA, 21 years textiles), DNN Rao (CEO, B.Tech Textile Engineering), Vishal Sekhani (ED, CA, finance + digital + retail) |
+| **E1 Producer** | PASS — own plant, German Barmag machines, full in-house production |
+| **E2 Accessible** | PASS — manufacturing in Himachal Pradesh, HQ Mumbai |
+| **C3 Differentiated** | Strong (20) — German Barmag technology (yield advantage over Chinese machines), pioneered 500kg MOQ, in-house master batch factory, 1,000 shades, specialty functional yarns. Capability-based differentiation |
+| **C4 Decision-Maker** | Strong (15) — multiple leaders with distinct portfolios: ED built SAP contribution costing model (₹1,100/line threshold), CEO sets operational targets, second ED owns digital + retail expansion. Demonstrated systems thinking across leadership |
+| **C5 Tailwind** | Moderate (8) — textiles has PLI (man-made fiber), some China+1. Not a premium tailwind sector |
+| **C6 Growth** | Strong (15) — facility expansion (super-specialty machines about to order), hiring (QA team planned), financial growth target (EBITDA ₹24Cr→₹32Cr) |
+| **C7 Systems** | Strong (20) — SAP S/4HANA since 2013, 7 modules active, contribution-based costing model, structured planning processes, daily SAP dashboards |
+| **C8 Succession** | Moderate (8) — multiple leaders but family/founder still central. Professional CFO hired. Non-family directors on board |
+| **Total** | **86/100 — A-band** |
+| **Verdict** | Operator-led Federer. No PhD or IIT credentials, but leadership built SAP costing models, contribution thresholds, and structured expansion over 19 years. Strong systems maturity. Basket C company that scores A-band through capability moat + operational infrastructure. |
+| **Personalization hook** | "Built India's first 500kg-MOQ specialty yarn operation when the industry demanded 10-ton minimums — with in-house master batch compounding to make it work" |
 
 ### Example 3: FAIL — Suven Pharma
 
@@ -232,7 +246,26 @@ To show you what good profiling looks like — and what a fail looks like — he
 | **Segment** | CDMO / pharma intermediates |
 | **Fail reason** | Now Advent-owned (PE-controlled). No longer promoter-driven. Fails the Federer test — decision-making has shifted to institutional investors, not a founder building capability. |
 
-**What to learn from these:** Notice that the pass examples have specific evidence per criterion, not assertions. The personalization hook names something recent, true, and specific enough to use in the first line of an email. The fail example shows that a technically capable company can still be wrong for our ICP if the ownership structure doesn't match.
+### Example 4: BORDERLINE — S&D Apparel
+
+| Field | Detail |
+|-------|--------|
+| **Segment** | Designer / artisanal manufacturing (Basket C) |
+| **What they make** | Hand-embroidered premium nightwear, designer label, D2C |
+| **Revenue** | Rs.3.5Cr |
+| **E1 Producer** | PASS — in-house manufacturing, 120+ craftsmen |
+| **E2 Accessible** | PASS — Kolkata |
+| **C3 Differentiated** | Moderate (10) — hand embroidery, designer positioning, FDCI member. But no patents, no regulatory moat, no equipment-based advantage |
+| **C4 Decision-Maker** | Weak (5) — founder has 40 years domain depth but no systems thinking evidence. No ERP, no structured costing, no formal planning. Gen-2 (NIFT-trained) is capable but has no formal authority |
+| **C5 Tailwind** | Moderate (8) — D2C growth, affordable luxury segment. No PLI, no China+1 |
+| **C6 Growth** | Moderate (8) — revenue doubled (1.5→3.5Cr), D2C expansion. But from a very small base |
+| **C7 Systems** | Weak (0) — zero ERP, zero digital infrastructure, paper-based processes, no structured costing model. Biggest red flag in the profile |
+| **C8 Succession** | Moderate (8) — gen-2 (Khyati) is NIFT-trained, AI-native, actively in the business. But not formally on the board, doesn't have decision authority |
+| **Total** | **39/100 — D-band (Not ICP)** |
+| **Verdict** | Strong brand and craft capability, but zero systems maturity and no formal authority in the gen-2 leader. C7=0 is a structural disqualifier for DT's model — without operational infrastructure, there's nothing to build on. Include in fail list with reasoning. |
+| **Why this matters:** This example shows that a company can have real differentiation (hand embroidery, 40-year legacy, FDCI membership) and a capable next-gen leader, but still fail the Federer test if there are no systems and the decision-maker with authority hasn't demonstrated systems thinking. DT needs infrastructure to work with — we improve how companies operate, which requires that structured operations exist or are being actively built. |
+
+**What to learn from these:** Notice that Example 2 (Pioneer) scores A-band despite being in textiles with no PhD founder — because C7 (Systems Maturity) and C4 (operator systems thinking) carry the score. Example 4 (S&D) fails despite strong craft because C7=0 is a structural gap. The scoring rewards companies that have built operational infrastructure, regardless of whether the founder has academic credentials or IP moats.
 
 ---
 
@@ -245,15 +278,18 @@ For each of the 25 companies, provide:
 | Company name | — |
 | Website | — |
 | City / Location | — |
-| Segment | Which segment from the list above |
+| Segment | Which segment from the list above (including Basket A, B, or C) |
 | What they make | 1-2 lines — specific products, not generic category |
 | Revenue band (estimate) | <Rs.30Cr / Rs.30-100Cr / Rs.100-300Cr / Rs.300-500Cr / >Rs.500Cr / Unknown |
 | Decision-maker | Name, title, background (if findable) |
-| Criterion 1-6 scores | For each: score (Weak / Moderate / Strong) + one line of evidence |
+| E1: Producer | PASS / FAIL + one line evidence |
+| E2: Accessible | PASS / FAIL + one line evidence |
+| Criterion C3-C8 scores | For each: score (Weak / Moderate / Strong) + one line of evidence |
+| Overall Federer Score | Sum of C3-C8 (out of 100) + band (A/B/C/D) |
 | Overall verdict | Strong fit / Fit / Borderline — with a 1-line reasoning |
 | Personalization hook | One specific, true, recent detail about this company that could be used in line 1 of an outreach email |
 
-**A sample spreadsheet with 10 profiled companies (6 passes, 4 fails) is attached as a reference.** Study the level of evidence detail expected — especially how fail companies are documented with clear reasoning, not just "doesn't fit."
+**A sample spreadsheet with profiled companies (passes and fails) is attached as a reference.** Study the level of evidence detail expected — especially how fail companies are documented with clear reasoning, not just "doesn't fit."
 
 ### What to upload (GitHub repo or Google Drive folder):
 
@@ -317,7 +353,7 @@ Your proposal should cover:
 We are evaluating:
 
 1. **Research quality** — Did you find real companies with real evidence, or surface-level Google results? We will verify your claims.
-2. **ICP judgment** — Can you tell the difference between a commodity manufacturer and a specialty one? Between a growth company and a stagnant one? Between a promoter-driven company and an institutionally-controlled one?
+2. **ICP judgment** — Can you tell the difference between a commodity producer and a specialty one? Between a growth company and a stagnant one? Between a promoter-driven company and an institutionally-controlled one? Between a company with real systems and one running on paper and WhatsApp?
 3. **Evidence discipline** — Did you show your work, or just assert scores? Every criterion score needs a specific evidence point, not "seems strong."
 4. **Sourcing creativity** — Can you think of ways to find these companies at scale, not just one at a time?
 5. **Scale-up thinking** — Is your 1000-company proposal realistic? Does it account for yield rates, quality control, and time constraints?
