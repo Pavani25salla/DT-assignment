@@ -50,6 +50,9 @@ This is an AI Business Analyst role. You'll be placed at the client company as a
 > *"This is more about EQ than IQ. We are assessing your emotional composure and growth mindset more than domain knowledge or skillset. Domain experts solve the problems anyway, the Technical Project Manager is responsible for systematic execution of the process. The TPM works more with elimination from the beginning than chasing everything."*
 > - CEO of the client company
 
+> *"AI-generated solutions are great, but do you understand it? Do you believe it? You may say something that sounds fine, but do you have the conviction to get it delivered? We don't expect youngsters to come in and change the world. But be honest. Be honest about what you know, what you don't know, and what you can actually get done."*
+> - CEO of the client company
+
 **The three muscles this role requires:**
 
 1. **Sensing (Psychology)** - You need to read the room. When a supervisor doesn't fill a form, it's not laziness. It might be fear. When a manager gives vague timelines, it's not incompetence. It might be that nobody taught them how to plan. The eureka moment in this role is almost always socio-psychological, not technological.
@@ -143,6 +146,10 @@ They've done real work:
 Mr. R is frustrated. In a recent meeting, he said:
 
 > "I still don't have visibility. I get the daily email. I see red items. But nothing happens. The same items stay red for days. Nobody responds. Nobody escalates. I want to know what's happening on the floor, not what happened yesterday."
+
+In a separate conversation about planning, he was more specific:
+
+> "The production plan is at the heart of everything. If the micro-plan for the day is not clear, nothing downstream works. The alerts, the dashboards, the escalation, all of that is decoration if the base plan for each day doesn't exist."
 
 He's been sharing AI and workflow automation videos with the team, roughly 90+ videos over the past few months. He wants automated workflows, dashboards, and systems thinking. When asked what specifically he wants, he says: "The system should tell me where the problem is before I have to ask."
 
