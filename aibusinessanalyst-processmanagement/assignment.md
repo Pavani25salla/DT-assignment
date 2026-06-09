@@ -102,15 +102,17 @@ Notice what the strong diagnosis does: it looks at the experience from the user'
 
 | Part | What | What It Tests |
 |------|------|---------------|
+| **Part 0** | Ground yourself: what does this company actually do | Do you understand the operation before you try to fix it? |
 | **Part A** | Diagnosis: what's actually going on | Can you see the real problem underneath the stated problem? |
 | **Part B** | Intervention design: what would you do | Can you design human-first, then build the right tool? |
 | **Part C** | Scale thinking: what breaks at 8x | Can you see around corners? |
 | **Part D** | Hand-drawn diagram: the full picture | Can you hold psychology, technology, and business in one frame? |
 
 **Deliverables:**
-1. Written responses to Parts A, B, C (structured document: Google Doc, Notion, or PDF)
-2. Photographed hand-drawn diagram for Part D - submit via chat or include in your document
-3. If you built a tool prototype (a sample form, a dashboard mockup, a workflow template), include that too - it's optional but earns bonus points
+1. **Summary sheet** (first page of your document, see format below)
+2. Written responses to Parts 0, A, B, C (structured document: Google Doc, Notion, or PDF)
+3. Photographed hand-drawn diagram for Part D - submit via chat or include in your document
+4. If you built a tool prototype (a sample form, a dashboard mockup, a workflow template), include that too - it's optional but earns bonus points
 
 ---
 
@@ -265,6 +267,22 @@ The email doesn't show individual names, trend data (is this the 3rd week Purcha
 
 ---
 
+# PART 0: Ground Yourself
+
+*Before you diagnose anything, show us you understand what this company actually does.*
+
+Answer these three questions. Keep each answer to 3-4 sentences. Do not use AI for this part. We want your understanding, not a polished paragraph.
+
+1. **What does this company produce, and who are its customers?** (Not a Wikipedia definition of API manufacturing. What do they actually make, and why does someone buy it from them?)
+
+2. **Describe what you think a typical day looks like on the factory floor.** (What are supervisors and operators actually doing? What does "production" look like in a company like this?)
+
+3. **Every department in this company exists to support one core operation. What is that operation, and why does everything else revolve around it?** (This is the single most important question in this assignment. If you get this right, your answers to Parts A through D will be grounded. If you get it wrong, they won't be, no matter how polished they look.)
+
+**Why we're asking this:** In interviews, the first thing a senior leader will test is whether you understand the business. If you can diagnose "no micro-plan exists" but can't answer "micro-plan of *what*?", your diagnosis is decoration. We've seen this happen. Don't let it happen to you.
+
+---
+
 # PART A: Diagnosis
 
 *What's actually going on?*
@@ -320,6 +338,8 @@ You've been placed at this company as the new analyst. You have your diagnosis f
 
 4. **How do you get buy-in from a supervisor who has been on the shop floor for 15 years and thinks this is a waste of time?** (Write the approach. Not a generic "build trust" answer. What specifically would you say or do with this person?)
 
+5. **Honest question: Do you currently plan your own day?** Do you have a daily plan, a to-do system, a micro-plan, anything structured that you follow? If yes, describe it honestly, what it looks like, how often you actually follow it. If no, say so, and tell us what you think would make you start. (There is no wrong answer here except a dishonest one. We'd rather hear "no, I don't, and here's why" than a performance of discipline you don't actually practice.)
+
 ---
 
 # PART C: Scale Thinking
@@ -328,7 +348,7 @@ You've been placed at this company as the new analyst. You have your diagnosis f
 
 This company is going from 2 active CDMO projects to 8 in the next 18 months. They will hire 3-4 more people like you.
 
-1. **Based on your diagnosis in Part A, what breaks first as the company scales?** (Not everything. Identify the single most dangerous failure point and explain why it's the one that breaks first.)
+1. **Based on your diagnosis in Part A, what breaks first as the company scales?** (Not everything. Identify the single most dangerous failure point and explain why it's the one that breaks first. Think about what this company exists to deliver, and what happens to that delivery when the problems you diagnosed in Part A multiply across 8 projects.)
 
 2. **What system or process would you design now, at 2 projects, that prevents that breakdown at 8?** (Something you'd build in the first 3 months that pays off at scale. Be specific about what it looks like.)
 
@@ -359,16 +379,34 @@ Be creative. There is no fixed format. It can be a flowchart, a mind map, a syst
 
 ---
 
+## Summary Sheet (First Page of Your Document)
+
+Before your detailed answers, include a summary sheet as the first page. This is what we read first. Keep each answer to 1-3 sentences.
+
+| # | Question | Your Answer |
+|---|----------|-------------|
+| 1 | What does this company exist to deliver, and to whom? | |
+| 2 | What is the single deepest problem you found across all three situations? (Not three problems. One thread that connects them.) | |
+| 3 | What is the first thing you would do in your first week, and why that before anything else? | |
+| 4 | What do you not know that you would need to learn before you could actually do this job? Name 2-3 specific things. | |
+| 5 | What is one thing in your submission that you're not fully sure about, and why you included it anyway? | |
+
+**Why we ask for this:** We review many submissions. This page tells us in 60 seconds whether you understood the problem or just described it. Question 4 and 5 specifically test self-awareness. Candidates who can name their gaps honestly tend to close them faster than candidates who pretend they have none.
+
+---
+
 ## How We Evaluate
 
 | Criterion | Weight | What Strong Looks Like | What Weak Looks Like |
 |-----------|--------|------------------------|----------------------|
-| **Diagnosis depth** | 25% | Distinguishes stated vs. actual problem for all 3 situations. Cites specific evidence from the scenario. Identifies behavioral/structural root causes. | Restates the stated problem. Proposes solutions in the diagnosis section. Doesn't reference evidence from the scenario. |
-| **Human-first intervention** | 20% | First moves are conversations and process/habit changes. Tools come after the human shift. Sequencing is intentional. | Jumps to building a dashboard or form. No mention of conversations, trust-building, or behavioral change before tools. |
-| **Tool design quality** | 20% | Specific and buildable. Describes what the user sees. Names technology choices with reasoning. The tool serves the behavioral diagnosis. | Generic ("implement a tracking system"). No user experience described. Technology choices not justified. Tool doesn't connect to the diagnosis. |
-| **Buy-in thinking** | 15% | Realistic about resistance. Shows understanding of the shop floor audience. Specific approach, not generic "build trust" or "communicate benefits." Respectful of experience. | Condescending ("educate them"). Assumes compliance. No awareness that a 15-year veteran doesn't care about your spreadsheet. |
-| **Scale / systems thinking** | 10% | Identifies a non-obvious failure point. Designs a system at 2 projects that holds at 8. Automate vs. human line is drawn with clear reasoning. | Lists surface-level risks ("more projects = more meetings"). No design for prevention. Automates everything or keeps everything manual without justification. |
+| **Domain grounding (Part 0 + Summary)** | 10% | Understands what the company produces and why. Connects daily planning to production delivery. Summary sheet shows genuine synthesis, not restated headings. Knows what they don't know. | Generic description of "a pharma company." Can't name the core operation. Summary sheet is vague or copies from the detailed answers. Claims to know everything. |
+| **Diagnosis depth** | 20% | Distinguishes stated vs. actual problem for all 3 situations. Cites specific evidence from the scenario. Identifies behavioral/structural root causes. | Restates the stated problem. Proposes solutions in the diagnosis section. Doesn't reference evidence from the scenario. |
+| **Human-first intervention** | 20% | First moves are conversations and process/habit changes. Tools come after the human shift. Sequencing is intentional. Honest about own daily planning practice. | Jumps to building a dashboard or form. No mention of conversations, trust-building, or behavioral change before tools. Claims to have perfect discipline without evidence. |
+| **Tool design quality** | 15% | Specific and buildable. Describes what the user sees. Names technology choices with reasoning. The tool serves the behavioral diagnosis. | Generic ("implement a tracking system"). No user experience described. Technology choices not justified. Tool doesn't connect to the diagnosis. |
+| **Buy-in thinking** | 10% | Realistic about resistance. Shows understanding of the shop floor audience. Specific approach, not generic "build trust" or "communicate benefits." Respectful of experience. | Condescending ("educate them"). Assumes compliance. No awareness that a 15-year veteran doesn't care about your spreadsheet. |
+| **Scale / systems thinking** | 10% | Identifies a non-obvious failure point connected to production delivery. Designs a system at 2 projects that holds at 8. Automate vs. human line is drawn with clear reasoning. | Lists surface-level risks ("more projects = more meetings"). No design for prevention. Automates everything or keeps everything manual without justification. |
 | **Hand-drawn diagram** | 10% | Shows genuine interconnection across psychology, technology, and business. All three situations linked. Reveals a way of thinking, not just a summary. | Missing, digitally generated, or superficial (three boxes labeled "A, B, C" with no connections). Just restates the written answers visually. |
+| **Self-awareness and honesty** | 5% | Names specific gaps in their knowledge. Flags what they're uncertain about. Honest about personal planning habits. Summary question 4 and 5 show real reflection. | Claims total confidence. No gaps acknowledged. Personal planning answer feels performed rather than real. |
 
 **We will not review your application if:**
 - You don't submit a hand-drawn diagram
@@ -398,11 +436,88 @@ Be creative. There is no fixed format. It can be a flowchart, a mind map, a syst
 
 | # | Item | Where |
 |---|------|-------|
-| 1 | Written responses to Part A (3 diagnoses with evidence) | Google Doc / Notion / PDF - share link on Internshala |
-| 2 | Written responses to Part B (3 interventions: conversation, 2-week changes, tool design, buy-in) | Same document |
-| 3 | Written responses to Part C (failure point, prevention system, automate vs. human) | Same document |
-| 4 | **Hand-drawn diagram (Part D)** | **Photo sent directly in Internshala chat** |
-| 5 | Optional: tool prototype or mockup | Same document or separate link |
+| 1 | **Summary sheet** (first page, 5 questions answered) | First page of your Google Doc / Notion / PDF |
+| 2 | Written responses to Part 0 (3 grounding questions) | Same document |
+| 3 | Written responses to Part A (3 diagnoses with evidence) | Same document |
+| 4 | Written responses to Part B (3 interventions + honest daily plan question) | Same document |
+| 5 | Written responses to Part C (failure point, prevention system, automate vs. human) | Same document |
+| 6 | **Hand-drawn diagram (Part D)** | **Photo sent directly in Internshala chat** |
+| 7 | Optional: tool prototype or mockup | Same document or separate link |
+
+---
+
+## Self-Check: Get Feedback Before You Submit
+
+We want you to use AI well. Part of using AI well is using it to challenge your own thinking, not just generate your answers. Below are prompts you can paste into Gemini (or any AI tool) along with your draft. They will push you to go deeper. Using them is optional but strongly recommended.
+
+**Important:** These prompts are designed to give you feedback, not to write your answers for you. If you paste your entire assignment and ask AI to "improve it," you'll get polished language that still misses the point. If you paste a specific section and ask AI to challenge it, you'll get feedback that makes your thinking sharper. That's the difference.
+
+---
+
+### Feedback Prompt for Part 0 (Ground Yourself)
+
+Copy and paste this into Gemini along with your Part 0 answers:
+
+> I'm applying for a role where I'll be placed inside a mid-scale API (Active Pharmaceutical Ingredient) manufacturing company that is transitioning from CMO to CDMO. I answered three grounding questions about what this company does. Please review my answers and tell me:
+>
+> 1. Did I describe what API manufacturing actually involves on a daily basis, or did I give a textbook definition?
+> 2. Did I identify the core operation that all other departments support? If not, ask me what the company exists to deliver, and push me to connect every department to that one operation.
+> 3. Would a factory supervisor reading my answer think I understand their world, or would they think I Googled it 5 minutes ago?
+>
+> Be direct. If my answers are vague, tell me what specifically is vague and what I should go learn before rewriting.
+
+---
+
+### Feedback Prompt for Part A (Diagnosis)
+
+> I'm diagnosing three operational problems inside a pharma manufacturing company. For each situation, I was asked to distinguish the stated problem from what's actually going on, and cite specific evidence. Please review my diagnoses and tell me:
+>
+> 1. For each situation, did I actually name a different root cause than what the people in the scenario say the problem is? Or did I just rephrase the stated problem?
+> 2. Did I cite specific evidence from the scenario (names, quotes, data from the tracker, things the advisor found), or did I make general assertions?
+> 3. Is there a behavioral or psychological dynamic I identified, or did I stay at the process/system level?
+> 4. If I were presenting this diagnosis to a senior leader who has seen this company for years, would anything I said surprise them or make them think differently? Or would they say "yes, I already knew that"?
+>
+> For any diagnosis you think is shallow, don't fix it for me. Instead, ask me a question that would force me to go deeper.
+
+---
+
+### Feedback Prompt for Part B (Intervention Design)
+
+> I'm designing interventions for three operational problems at a pharma company. For each one, I had to describe: the first conversation I'd have, what changes in 2 weeks (no tools), then the tool/system design, and how I'd get buy-in from veteran supervisors. Please review and tell me:
+>
+> 1. Does my first conversation start with asking and listening, or does it start with telling and proposing?
+> 2. In my "first 2 weeks" section, did I actually describe human/process changes, or did I sneak in tool-building?
+> 3. For my tool designs: could a supervisor who's been on the shop floor for 15 years actually use what I described? Is the interface realistic for someone who uses Excel and WhatsApp, not project management software?
+> 4. In my buy-in section, am I being specific about what I'd say or do, or am I writing generic advice like "build trust" and "communicate benefits"? Would a veteran supervisor feel respected by my approach, or talked down to?
+> 5. Now imagine you are a 50-year-old factory supervisor who has been doing this job since before I was born. Read my buy-in approach from their perspective. Would you cooperate with me, or would you ignore me?
+>
+> If any section feels like it was written by someone who has never been inside a factory, tell me exactly where and why.
+
+---
+
+### Feedback Prompt for Part C (Scale Thinking)
+
+> I'm answering questions about what breaks when a pharma manufacturing company scales from 2 CDMO projects to 8. Please review my answers and tell me:
+>
+> 1. Did I identify a failure point that's connected to what the company actually delivers (manufacturing and delivering APIs to customers), or is my failure point generic (like "more meetings" or "more complexity")?
+> 2. The system I designed to prevent breakdown at scale: is it specific enough that someone could actually build it in 3 months? Or is it a wish list?
+> 3. On the automate vs. human question: did I draw a clear line with real reasoning, or did I just list things in two columns without explaining why each one belongs where it is?
+>
+> If my failure point has nothing to do with production delivery, push me to think about what happens to manufacturing output when the problems I diagnosed in Part A multiply across 8 concurrent projects.
+
+---
+
+### Feedback Prompt for Your Summary Sheet
+
+> I filled out a 5-question summary sheet for my assignment. Please review it and tell me:
+>
+> 1. Question 1 (what the company delivers): Am I specific, or could this describe any company?
+> 2. Question 2 (single deepest problem): Did I actually name ONE connecting thread, or did I list three separate problems?
+> 3. Question 3 (first thing in week 1): Is this a concrete action, or is it vague ("observe and understand the situation")?
+> 4. Question 4 (what I don't know): Did I name real, specific gaps in my knowledge, or did I write something safe that makes me look good?
+> 5. Question 5 (what I'm not sure about): Did I actually flag uncertainty, or did I dodge the question?
+>
+> If any answer feels performed rather than honest, tell me which one and why.
 
 ---
 
