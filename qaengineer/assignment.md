@@ -16,6 +16,7 @@ This assignment simulates your actual job. You will work with an existing open-s
 1- You are encouraged to use AI Tools to complete this assignment.
 2- You are expected to be able to explain every test you wrote and every quality decision you made during the interview.
 3- We care about your quality thinking. Which tests you wrote matters less than why you wrote them and what you chose not to automate.
+4- Every document you submit — test strategy, acceptance criteria, bug reports, negative testing report — will be cross-checked against the actual codebase you forked. If your test strategy names flows that don't exist in your HRMS, if your bug reports describe issues we can't reproduce, if your acceptance criteria could apply to any app on earth — that tells us more than the document itself.
 
 ---
 
@@ -50,6 +51,8 @@ Write a `test-strategy.md` in your repo root. One page, not twenty. Cover:
 - **What you deliberately won't test, and why.** This tells us more about your judgment than what you do test.
 
 The test strategy shows us whether you think about quality as risk management or as box-checking. A site manager's payslip being wrong is not the same severity as a CSS misalignment on the dashboard. Your strategy should reflect that.
+
+**What we've seen from AI-generated test strategies:** *"Critical flows should be prioritized based on business impact and risk assessment. Automated regression testing should cover core functionality while exploratory testing addresses edge cases."* That paragraph applies to every software project ever built. It tells us nothing about your HRMS, your domain, or your thinking. Your strategy should name the actual screens, the actual API endpoints, the actual data flows in the HRMS you forked — and explain what breaks for a real construction company when each one fails. If we could swap your project name for any other project and the strategy still reads the same, it's not a strategy — it's a template.
 
 ---
 
@@ -125,6 +128,8 @@ Your job — write a `specs/overtime-entry.md` file containing:
 
 *This is the bridge between product and dev. If the acceptance criteria are vague, the developer builds the wrong thing and you both waste a sprint. If they're too rigid, the developer can't make sensible implementation choices. Find the middle ground that gives clarity without killing judgment.*
 
+*A warning: AI-generated acceptance criteria are easy to spot. They're perfectly formatted, use all the right Given/When/Then syntax, and say things like "Given a valid user, when they submit the form, then the data should be saved successfully." That's a tautology, not a criterion. We're looking for the specific edge cases that prove you thought about construction payroll: what happens when the supervisor enters 7 hours but the worker already has 55 this month against a 60-hour cap? What happens when two supervisors at different sites log overtime for the same worker on the same day? What happens if the phone loses connectivity halfway through submission? Those scenarios come from understanding the domain and the humans, not from prompting "write acceptance criteria for an overtime form."*
+
 ---
 
 **TICKET QA-302: Exploratory testing — find real bugs**
@@ -146,6 +151,8 @@ Then: pick the most critical bug and write an automated test that catches it. Th
 
 *We're not testing whether the open-source project is perfect — it's not. We're testing whether you can systematically find real issues and communicate them clearly enough that a developer can fix them without asking 5 follow-up questions.*
 
+*We will clone your repo, run the application, and attempt to reproduce every bug you documented. If a bug report describes a "potential XSS vulnerability in the search field" but the app doesn't have a search field, or describes "incorrect calculation in payroll module" without specific numbers showing what's wrong, we'll know how the report was written. Real bugs have specific reproduction steps because you actually found them by clicking through the app and reading the code. AI-generated bug reports describe common vulnerability patterns for applications the AI has never seen running.*
+
 ---
 
 **TICKET QA-303: Negative testing audit**
@@ -161,7 +168,7 @@ Most developers test the happy path: fill in all fields correctly, click submit,
 - Send API requests with missing fields, wrong data types, extra unexpected fields
 - Try to access pages or APIs that should require authentication without logging in
 
-Write automated tests for the 5 most critical failures you find. Commit these tests along with a `negative-testing-report.md` that documents everything you tested, what passed, and what failed.
+Write automated tests for the 5 most critical failures you find. Commit these tests along with a `negative-testing-report.md` that documents everything you tested, what passed, and what failed. **Include actual error messages, HTTP response codes, or screenshots from your testing.** A report that says "the form does not validate empty inputs" without showing the actual error (or lack of error) the app returned is a report written from imagination, not from testing.
 
 *This ticket reveals your instinct. A QA engineer who only tests what's supposed to work will never catch what's supposed to fail gracefully.*
 
@@ -222,27 +229,39 @@ Design and implement a quality gate:
 | **Process thinking** | QA-305 shows whether you understand quality as a system. One QA engineer can't manually test every deployment. A quality gate means the system enforces what used to depend on individual diligence |
 | **Code reading ability** | You explored an unfamiliar codebase, understood how it works, found what's fragile, and built protection around it. You didn't rewrite the project — you made it safer |
 | **Communication** | Bug reports a developer can act on without follow-up questions. Acceptance criteria that don't need a meeting to interpret. A test strategy that justifies its priorities |
-| **AI usage** | We expect you to use AI tools (Claude, Copilot, etc.). Tell us which ones and how. No penalty for using AI. Penalty for not using it |
+| **AI usage** | We expect you to use AI tools (Claude, Copilot, etc.). Tell us which ones and how. No penalty for using AI. Penalty for not using it. But also: penalty for submitting AI output you didn't verify against your actual codebase. We cross-check every deliverable against the repo you submitted. Generic documents that could describe any project are treated the same as empty submissions |
 
 ---
 
-## The Hand-Drawn Diagram (MANDATORY)
+## The Hand-Drawn Mind Map (MANDATORY)
 
-> **In addition to the code submission, you must send a hand-drawn quality lifecycle diagram directly in the Internshala chat window.**
+> **In addition to the code submission, you must send a hand-drawn mind map directly in the Internshala chat window.**
 
-> Take a photo of a hand-drawn diagram that shows how you think about quality in a software team. Not a test plan. A quality system.
->
-> Show us the lifecycle: when a product requirement comes in, where does quality start? When the developer writes code, what checks exist? When a PR is opened, what happens before it merges? When code deploys, what verifies it works? When a user reports a bug, how does it flow back into prevention?
->
-> Show us the humans. The product manager who writes a vague brief and expects it to just work. The developer who ships fast and needs guardrails, not gatekeeping. The site manager who reports "the salary is wrong" and needs it fixed before payday. The construction worker who trusts the number on the payslip. Where does each person interact with the quality system? What does each person need from it?
->
-> Show us what breaks without quality. What happens when acceptance criteria are vague and the developer builds the wrong thing? When there's no CI and a typo brings down production? When nobody writes regression tests and the same bug comes back three sprints later? When the QA engineer tests everything manually and becomes the bottleneck for every release? Map the failure modes, not just the ideal flow.
->
-> It doesn't need to be beautiful. It needs to show that you think about quality as something that belongs to the entire team and the entire process — not something that happens after development is "done." We want someone who sees quality as prevention, not detection.
+> This mind map should show how you think about this role. Not a test plan. Not a list of tools. Your thought process — how psychology, business, and technology connect in quality engineering for this specific domain.
 
-> **This is not optional. Applications without a hand-drawn diagram in the Internshala chat will not be reviewed.**
+> The center is the role: QA Engineer for construction HR technology. The branches should show three interlocking dimensions:
+>
+> **Psychology** — Who uses this system? What do they fear? What do they trust? A site supervisor entering overtime on a phone after a 12-hour shift in the sun. A payroll operator who needs month-end numbers to be right because 200 workers depend on that number. A developer who ships fast and doesn't want to be gatekept. How do these people shape your quality decisions?
+>
+> **Business** — What's at stake when quality fails here? Payroll errors aren't just bugs — they affect real wages, real families. The 60-hour overtime cap exists for cost control. The company is scaling from 2 construction sites to 8. What breaks at scale? What's the cost of a missed bug in this domain vs. a consumer app?
+>
+> **Technology** — What do you automate and why? Where does CI help? Where is manual testing still the right call? How does your test strategy connect to the business risks and the human behaviors you identified?
+>
+> **The key is the connections between these three.** A mind map with three disconnected branches labeled "psychology," "business," and "tech" is just three lists. We want to see the links: the psychology of the user drives what you test, the business stakes drive what you test first, and the technology choices serve both.
 
-> Why we require this: most applicants use AI to generate impressive-sounding test strategies and automation scripts without understanding quality engineering. A hand-drawn quality lifecycle diagram is the fastest way for us to tell whether you actually think about quality as a system or just write tests. It takes 15 minutes to draw if you've genuinely internalized what this role is about. It's impossible to fake if you haven't.
+> ### What a strong mind map looks like
+>
+> *A node says "mason's daily wage depends on this payslip being correct" (business) → connects to "salary calculation is test priority #1, not dashboard layout" (tech decision) → connects to "worker trusts the printed number — wrong amount isn't a UI bug, it's broken trust" (psychology). Another path: "supervisor enters overtime on phone at dusty construction site after a 12-hour shift" (psychology) → "form must handle fat-finger mistakes without losing data" (tech) → "if overtime entry is wrong, payroll downstream is wrong for every worker on that site" (business). The three dimensions aren't separate sections — they feed each other. Every technology choice traces back to a human consequence and a business risk.*
+
+> ### What a weak mind map looks like
+>
+> *Center says "QA Engineer." Branches say "Selenium," "Cypress," "Jest," "CI/CD," "Bug Tracking," "90% code coverage." Maybe a branch for "Agile Testing Quadrants" or "Test Pyramid." It's a catalog of testing tools and textbook frameworks. No mention of who uses this system or what happens when quality fails in construction payroll specifically. No connection between a technology choice and a human consequence. You could paste this mind map into any QA assignment for any company and it would look exactly the same. That's how we know the thinking isn't there.*
+
+> It doesn't need to be beautiful. It needs to show that you understand why quality engineering in construction HR technology is different from quality engineering in a food delivery app. The humans are different, the stakes are different, and your quality decisions should reflect that.
+
+> **This is not optional. Applications without a hand-drawn mind map in the Internshala chat will not be reviewed.**
+
+> Why we require this: most applicants use AI to generate impressive-sounding test strategies and automation scripts without understanding quality engineering. A hand-drawn mind map is the fastest way for us to tell whether you think about quality as a blend of people, business, and technology — or just write tests. It takes 15 minutes to draw if you've genuinely internalized what you built. It's impossible to fake if you haven't.
 
 ---
 
@@ -260,7 +279,7 @@ Design and implement a quality gate:
 5. Include `specs/overtime-entry.md` (from QA-301)
 6. Include `bug-reports/` directory with individual bug report files (from QA-302)
 7. Include `negative-testing-report.md` (from QA-303)
-8. **Hand-drawn quality lifecycle diagram**: photo sent in Internshala chat window
+8. **Hand-drawn mind map** (psychology × business × technology): photo sent in Internshala chat window
 9. Send the repo link within 48 hours
 
 ---
